@@ -1,0 +1,2061 @@
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (158.4ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (500.8ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateProducts (20110625055014)
+  [1m[35mSQL (152.5ms)[0m  CREATE TABLE `products` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `price` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (121.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110625055014')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `products`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `products`
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:21:29 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 89ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:26:23 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 13ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:26:51 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 14ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:28:59 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 7.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:29:38 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 13ms (Views: 8.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:29:40 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:29:46 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 13ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:29:53 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 14ms (Views: 8.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:30:13 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 12ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:30:19 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:30:28 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 12ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:31:05 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 7.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:31:19 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:31:49 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:32:38 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 12ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:33:47 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:34:47 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (8.5ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 28ms (Views: 14.5ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:34:56 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:35:20 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:36:43 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 12ms (Views: 7.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:37:08 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:37:13 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:40:32 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 65ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:40:40 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:40:57 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:41:09 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:41:13 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:41:16 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 12ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:41:22 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 13ms (Views: 7.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:41:31 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:42:17 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:43:13 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:43:18 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:43:49 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 13ms (Views: 7.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:44:00 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at Sat Jun 25 11:44:02 +0530 2011
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (95.1ms)
+Rendered products/new.html.erb within layouts/application (100.0ms)
+Completed 200 OK in 110ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:44:05 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:45:57 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 13ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateProducts (20110625055014)
+Migrating to DeviseCreateUsers (20110625061503)
+  [1m[35mSQL (124.9ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(128) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (0.6ms)[0m  [1mSHOW KEYS FROM `users`[0m
+  [1m[35mSQL (312.7ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36mSQL (0.6ms)[0m  [1mSHOW KEYS FROM `users`[0m
+  [1m[35mSQL (290.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)
+  [1m[36mSQL (34.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110625061503')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `products`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `products`
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `users`
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:47:50 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:49:10 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 0ms
+
+NoMethodError (undefined method `new_user_session_path' for #<Devise::FailureApp:0xb6e89994>):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:49:49 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:49:49 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/devise-1.3.4/app/views/devise/shared/_links.erb (2.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/devise-1.3.4/app/views/devise/sessions/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 43ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:51:50 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 35ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:51:57 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 78ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:52:00 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (0.2ms)
+Rendered devise/sessions/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 28ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:52:28 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (66.4ms)
+Rendered devise/sessions/new.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 114ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Sat Jun 25 11:52:46 +0530 2011
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/registrations/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 33ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at Sat Jun 25 11:52:59 +0530 2011
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"commit"=>"Sign up", "authenticity_token"=>"9pyf1BYRLeACFZrlCye8B4Jxhz7w6J66jMfuYDHpC2U=", "utf8"=>"✓", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"surendrans1@spritle.com"}}
+  [1m[36mSQL (8.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (44.1ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'surendrans1@spritle.com') LIMIT 1
+  [1m[36mSQL (5.4ms)[0m  [1mROLLBACK[0m
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/registrations/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 307ms (Views: 20.9ms | ActiveRecord: 57.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at Sat Jun 25 11:53:09 +0530 2011
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"commit"=>"Sign up", "authenticity_token"=>"9pyf1BYRLeACFZrlCye8B4Jxhz7w6J66jMfuYDHpC2U=", "utf8"=>"✓", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"surendrans1@spritle.com"}}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'surendrans1@spritle.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO `users` (`reset_password_token`, `encrypted_password`, `reset_password_sent_at`, `updated_at`, `remember_created_at`, `sign_in_count`, `last_sign_in_at`, `email`, `current_sign_in_at`, `created_at`, `current_sign_in_ip`, `last_sign_in_ip`) VALUES (NULL, '$2a$10$zywU6/IfslgO1VRewt2y6uD/pWaTQJne762WGZWzXEM4hHQGWOytq', NULL, '2011-06-25 06:23:09', NULL, 0, NULL, 'surendrans1@spritle.com', NULL, '2011-06-25 06:23:09', NULL, NULL)
+  [1m[36mSQL (56.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 289ms
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:53:10 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (20.8ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.9ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 153ms (Views: 7.5ms | ActiveRecord: 21.7ms)
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:53:21 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 7ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:53:21 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 30ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:53:46 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 88ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:54:13 +0530 2011
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"commit"=>"Sign in", "authenticity_token"=>"QukWRaHdr6Yit2+X+r4FwydK/huRpMraAcP6QsIer7k=", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"surendrans1@spritle.com"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'surendrans1@spritle.com' LIMIT 1
+Redirected to http://localhost:3000/products
+Completed 302 Found in 122ms
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:54:13 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (56.2ms)
+Completed 200 OK in 84ms (Views: 61.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 11:56:19 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 54ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Sat Jun 25 11:56:23 +0530 2011
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 40ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:56:23 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 6ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:56:23 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.2ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 34ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:57:17 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.0ms)
+Rendered devise/sessions/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 40ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at Sat Jun 25 11:57:37 +0530 2011
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"commit"=>"Sign in", "authenticity_token"=>"lzoB0F1mr+UPyxw6ONbWHdnXc3kjXyGKGjO8vxzvzgQ=", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"surendrans1@spritle.com"}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'surendrans1@spritle.com' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 125ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 11:57:37 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 30ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 12:08:29 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 28ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateProducts (20110625055014)
+Migrating to DeviseCreateUsers (20110625061503)
+Migrating to CreateAuthentications (20110625064146)
+  [1m[35mSQL (127.0ms)[0m  CREATE TABLE `authentications` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `provider` varchar(255), `uid` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (43.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110625064146')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `authentications`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `authentications`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `products`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `products`
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `users`
+
+
+Started GET "/products" for 127.0.0.1 at Sat Jun 25 12:13:55 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 48ms (Views: 7.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Sat Jun 25 12:13:58 +0530 2011
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 12:13:58 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 10ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 12:13:58 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.4ms)
+Rendered devise/sessions/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 37ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 12:19:19 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 34ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:20:02 +0530 2011
+
+OAuth::Unauthorized (401 Unauthorized):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:20:30 +0530 2011
+
+OAuth::Unauthorized (401 Unauthorized):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 12:21:00 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 12:21:00 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 35ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:21:08 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=YgOykBMV62OvmgsZGzwpsiT5UCFiwg2oKjJR4LbwXI&oauth_verifier=gEx2bbXNqUGp0kCD6v8dTmk4k4ebLejjGujWs5wQhg" for 127.0.0.1 at Sat Jun 25 12:21:11 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"gEx2bbXNqUGp0kCD6v8dTmk4k4ebLejjGujWs5wQhg", "oauth_token"=>"YgOykBMV62OvmgsZGzwpsiT5UCFiwg2oKjJR4LbwXI", "provider"=>"twitter"}
+Completed   in 10ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 12:21:24 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 34ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:21:47 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=ZgqWAznGR6N6T3LpmSBGX51CMYOyzqwYELRGGYo&oauth_verifier=IzJmI17YT2nLFu41nnijfIz74X2NyJM8pyrv0FkN8Dc" for 127.0.0.1 at Sat Jun 25 12:21:50 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"IzJmI17YT2nLFu41nnijfIz74X2NyJM8pyrv0FkN8Dc", "oauth_token"=>"ZgqWAznGR6N6T3LpmSBGX51CMYOyzqwYELRGGYo", "provider"=>"twitter"}
+Completed   in 9ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 12:22:03 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 34ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:23:04 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=Py7vNTBOOig4SWREORCga9cked2ERfUTxj3egmU20s8&oauth_verifier=SkIp31gAbcnbqI1d45dgH8EQ7fi8nQ0L4pRk5mfXmI" for 127.0.0.1 at Sat Jun 25 12:23:17 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"SkIp31gAbcnbqI1d45dgH8EQ7fi8nQ0L4pRk5mfXmI", "oauth_token"=>"Py7vNTBOOig4SWREORCga9cked2ERfUTxj3egmU20s8", "provider"=>"twitter"}
+Completed   in 9ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 12:23:30 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.5ms)
+Rendered devise/sessions/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 99ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:23:53 +0530 2011
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:27:11 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=aeIOkOdopyP74aOLhtb0CIgRwuhG73Tl0HzkUSG0&oauth_verifier=QGabPG6YGWsMMRCY5zKSxngfwMMeNbKXyk7XRMTzEYs" for 127.0.0.1 at Sat Jun 25 12:27:14 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"QGabPG6YGWsMMRCY5zKSxngfwMMeNbKXyk7XRMTzEYs", "oauth_token"=>"aeIOkOdopyP74aOLhtb0CIgRwuhG73Tl0HzkUSG0", "provider"=>"twitter"}
+Completed   in 9ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 12:27:17 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.0ms)
+Rendered devise/sessions/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 38ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:28:20 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=iSd5XOAFzwVWnpodxLquxv7i4moUtEK9BWklO98vIbw&oauth_verifier=QPl6FbF0mz609rJQyPgrb10vzcVl48XPqRJvFS9s98" for 127.0.0.1 at Sat Jun 25 12:28:23 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"QPl6FbF0mz609rJQyPgrb10vzcVl48XPqRJvFS9s98", "oauth_token"=>"iSd5XOAFzwVWnpodxLquxv7i4moUtEK9BWklO98vIbw", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=iSd5XOAFzwVWnpodxLquxv7i4moUtEK9BWklO98vIbw&oauth_verifier=QPl6FbF0mz609rJQyPgrb10vzcVl48XPqRJvFS9s98" for 127.0.0.1 at Sat Jun 25 12:28:51 +0530 2011
+
+
+Started GET "/auth/failure?message=invalid_credentials" for 127.0.0.1 at Sat Jun 25 12:28:53 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:28:58 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=29H8ErP1U9bwO1W9zc8fJidykpD2qAn4VC5v0dqX6g&oauth_verifier=Hx14pWvdYi7QXDUqif0ZGJslPi8GXWuIae2WbXc" for 127.0.0.1 at Sat Jun 25 12:29:01 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"Hx14pWvdYi7QXDUqif0ZGJslPi8GXWuIae2WbXc", "oauth_token"=>"29H8ErP1U9bwO1W9zc8fJidykpD2qAn4VC5v0dqX6g", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:29:50 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=5OaNdQiwZYWkd5D6fh7UEbIrmyCJgmqq8sqAzJFh0&oauth_verifier=nyvcGJJ7vmKoRDGqGVLqOPkghXUgq7NmeGLOpOvys" for 127.0.0.1 at Sat Jun 25 12:30:03 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"nyvcGJJ7vmKoRDGqGVLqOPkghXUgq7NmeGLOpOvys", "oauth_token"=>"5OaNdQiwZYWkd5D6fh7UEbIrmyCJgmqq8sqAzJFh0", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at Sat Jun 25 12:31:02 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=Kho0QgLGWTJ986oNL1O3y11QqtZZ9XFFg7iFzkGNgo&oauth_verifier=Gk54GsHQMTsZ5viVtnuNldM0oUGC8NGDAvLdts8LY" for 127.0.0.1 at Sat Jun 25 12:31:05 +0530 2011
+
+SyntaxError (/home/suren/NetBeansProjects/Mygit/Linkedin-twit-facebook-connect/app/controllers/authentications_controller.rb:8: syntax error, unexpected '\n', expecting ')'):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at Sat Jun 25 12:31:41 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=jeEH5kMDTMZNKqSjqGI7sOG6VqeFg53F4dkiMkqOTmU&oauth_verifier=iF0c1Wn7X3KhVXyA9iDVgTYTJgwU73zE6puIUlzDwA" for 127.0.0.1 at Sat Jun 25 12:31:48 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"iF0c1Wn7X3KhVXyA9iDVgTYTJgwU73zE6puIUlzDwA", "oauth_token"=>"jeEH5kMDTMZNKqSjqGI7sOG6VqeFg53F4dkiMkqOTmU", "provider"=>"twitter"}
+Completed   in 1ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 12:31:56 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:36:15 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=zUXz7kkKeX5G1fyxwsWOkNmhZlw4f3KEYl1KDFM&oauth_verifier=O4ofnlbiz7IIVjR3oRNr2BgitsgpnrZAVRUbJZG2jPU" for 127.0.0.1 at Sat Jun 25 12:36:28 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"O4ofnlbiz7IIVjR3oRNr2BgitsgpnrZAVRUbJZG2jPU", "oauth_token"=>"zUXz7kkKeX5G1fyxwsWOkNmhZlw4f3KEYl1KDFM", "provider"=>"twitter"}
+Completed   in 1ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 12:36:55 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 12:37:49 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 9ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 12:37:49 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.7ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 33ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:38:26 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=LNHKgXOXRjblb8h35BCk7Cut6babPKye04FNHkrBOI&oauth_verifier=n07L1TeO5o5TKfbQ2qGssugs2tNhGnwItfHk0XmkdUQ" for 127.0.0.1 at Sat Jun 25 12:38:28 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"n07L1TeO5o5TKfbQ2qGssugs2tNhGnwItfHk0XmkdUQ", "oauth_token"=>"LNHKgXOXRjblb8h35BCk7Cut6babPKye04FNHkrBOI", "provider"=>"twitter"}
+Completed   in 1ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 12:38:41 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:39:16 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=EgyxajeNOVbJgyEIbHBM7wu4qdQwVDug8BoyLFBQKdg&oauth_verifier=EFnaYgeJGlNUSBGOIqk2ktRttz649o2YAaVPlaJtMdE" for 127.0.0.1 at Sat Jun 25 12:39:19 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"EFnaYgeJGlNUSBGOIqk2ktRttz649o2YAaVPlaJtMdE", "oauth_token"=>"EgyxajeNOVbJgyEIbHBM7wu4qdQwVDug8BoyLFBQKdg", "provider"=>"twitter"}
+Completed   in 0ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 12:39:32 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:46:34 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=yGCTSo7BXfDfPVrNJ1VpfThgy6ftivZWpb6tu6EUGdo&oauth_verifier=tXoHtWCSfDHBxdDk2UTVzH2J4Zp5Lpr4O3cy307XQ" for 127.0.0.1 at Sat Jun 25 12:46:37 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"tXoHtWCSfDHBxdDk2UTVzH2J4Zp5Lpr4O3cy307XQ", "oauth_token"=>"yGCTSo7BXfDfPVrNJ1VpfThgy6ftivZWpb6tu6EUGdo", "provider"=>"twitter"}
+Completed   in 0ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 12:46:51 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:47:08 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=8jwtfZk5oNCS59qFdhjzSCpsuhMjpJBwi9tUIjDcEPA&oauth_verifier=UwKlftoqkfdbvTubkGkF3FBbZrUY4d4hxqp7iup3w" for 127.0.0.1 at Sat Jun 25 12:47:22 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"UwKlftoqkfdbvTubkGkF3FBbZrUY4d4hxqp7iup3w", "oauth_token"=>"8jwtfZk5oNCS59qFdhjzSCpsuhMjpJBwi9tUIjDcEPA", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=8jwtfZk5oNCS59qFdhjzSCpsuhMjpJBwi9tUIjDcEPA&oauth_verifier=UwKlftoqkfdbvTubkGkF3FBbZrUY4d4hxqp7iup3w" for 127.0.0.1 at Sat Jun 25 12:49:53 +0530 2011
+
+
+Started GET "/auth/failure?message=invalid_credentials" for 127.0.0.1 at Sat Jun 25 12:50:00 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 12:50:42 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=uBGPSAoEe4gbh3ZUFey2A4bY1fwmUTLp4GXWV5w&oauth_verifier=C5w5RyO8xAkNbCJmkndWejNTAg67Fteo9381tiyNvU" for 127.0.0.1 at Sat Jun 25 12:50:55 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"C5w5RyO8xAkNbCJmkndWejNTAg67Fteo9381tiyNvU", "oauth_token"=>"uBGPSAoEe4gbh3ZUFey2A4bY1fwmUTLp4GXWV5w", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 13:01:49 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=bvOhZarVBt1plMgMGeb6LzWIV8imUsvhol2qZk2Nc&oauth_verifier=EKcHJeoZSEdw6BXxYFvl3HwlhT5lrVO4hyc7PaoB8" for 127.0.0.1 at Sat Jun 25 13:01:54 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"EKcHJeoZSEdw6BXxYFvl3HwlhT5lrVO4hyc7PaoB8", "oauth_token"=>"bvOhZarVBt1plMgMGeb6LzWIV8imUsvhol2qZk2Nc", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at Sat Jun 25 13:02:39 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=vhbTXAv4JhW5QCDI4Ys80oWz6SKgBzx9jIuxLC8g&oauth_verifier=GINUqc4MEqfy6nl5J1PCxX0nzD71BLhYuVDcuHJnvFY" for 127.0.0.1 at Sat Jun 25 13:02:41 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"GINUqc4MEqfy6nl5J1PCxX0nzD71BLhYuVDcuHJnvFY", "oauth_token"=>"vhbTXAv4JhW5QCDI4Ys80oWz6SKgBzx9jIuxLC8g", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 16:50:23 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=lT8R2IaJ5N9uh80mIcQ8V5IA6ujWBaRSdPz9ZnIYFgM&oauth_verifier=wuokLHnYCO00KetbY0mhfPeQ2v71hvdd1GjNP98QM" for 127.0.0.1 at Sat Jun 25 16:50:33 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"wuokLHnYCO00KetbY0mhfPeQ2v71hvdd1GjNP98QM", "oauth_token"=>"lT8R2IaJ5N9uh80mIcQ8V5IA6ujWBaRSdPz9ZnIYFgM", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 1181ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at Sat Jun 25 16:56:05 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=pCuoY04kj5oc56f7AM1DhMF1jSikQG0fKKOqSYepE&oauth_verifier=AjhnE4swfx5ry7v8UWCfEe3aPcmro9Wt4y7o0PhjnU" for 127.0.0.1 at Sat Jun 25 16:56:08 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"AjhnE4swfx5ry7v8UWCfEe3aPcmro9Wt4y7o0PhjnU", "oauth_token"=>"pCuoY04kj5oc56f7AM1DhMF1jSikQG0fKKOqSYepE", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 51ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 16:56:11 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 16:57:15 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=BnmZ0IVxMSyQUc2dfPOE4CCUiciHe9u3ZrJ7VgQd69E&oauth_verifier=54BByJEu9Q17S98c4EOaEMQYDNelkO9EYzuSnV9dI" for 127.0.0.1 at Sat Jun 25 16:57:18 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"54BByJEu9Q17S98c4EOaEMQYDNelkO9EYzuSnV9dI", "oauth_token"=>"BnmZ0IVxMSyQUc2dfPOE4CCUiciHe9u3ZrJ7VgQd69E", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 26ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 16:57:21 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 16:57:42 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=tsnqW7dMKhQ4pdhnnFQm71j88Km1CXRXwSpeWNsM&oauth_verifier=TWIR4DIeVILuUEUZSyHJ4RfkfrLNX8KMFl8ian3YHg" for 127.0.0.1 at Sat Jun 25 16:57:58 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"TWIR4DIeVILuUEUZSyHJ4RfkfrLNX8KMFl8ian3YHg", "oauth_token"=>"tsnqW7dMKhQ4pdhnnFQm71j88Km1CXRXwSpeWNsM", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 83ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 16:58:01 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 16:59:12 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=P1AyfP5D69JVBUh2SJjMfKkcmoYe4mAuMPHIZU8MWQ&oauth_verifier=rs0infDKDT3UrzNaGEenXpzwVTwygmkNfKuJqQSAao" for 127.0.0.1 at Sat Jun 25 16:59:19 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"rs0infDKDT3UrzNaGEenXpzwVTwygmkNfKuJqQSAao", "oauth_token"=>"P1AyfP5D69JVBUh2SJjMfKkcmoYe4mAuMPHIZU8MWQ", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 23ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 16:59:29 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 25 16:59:33 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 8ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Sat Jun 25 16:59:33 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (3.4ms)
+Rendered devise/sessions/new.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 477ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 16:59:50 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=DHq9QmB4tNtDx7ZgtXER0FTtO9Vrc3lQ6OpYFp2A&oauth_verifier=OjcheFLYhwyGSCmgUMPp06i5KqCCPmJ5rNiwUVHYQ" for 127.0.0.1 at Sat Jun 25 16:59:57 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"OjcheFLYhwyGSCmgUMPp06i5KqCCPmJ5rNiwUVHYQ", "oauth_token"=>"DHq9QmB4tNtDx7ZgtXER0FTtO9Vrc3lQ6OpYFp2A", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 80ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 17:00:15 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 17:00:45 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=UWVEybt8oIp73jXWhrc36uZlx9QXhZhEk4GffKnB8GU&oauth_verifier=fuQIg6uM0ZQz1mNB2owkqVNFqVCgdwPtzDLTYlm0" for 127.0.0.1 at Sat Jun 25 17:00:49 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"fuQIg6uM0ZQz1mNB2owkqVNFqVCgdwPtzDLTYlm0", "oauth_token"=>"UWVEybt8oIp73jXWhrc36uZlx9QXhZhEk4GffKnB8GU", "provider"=>"twitter"}
+Completed   in 54ms
+
+ActionView::MissingTemplate (Missing template authentications/create with {:handlers=>[:erb, :rjs, :rhtml, :rxml, :builder], :locale=>[:en, :en], :formats=>[:html]} in view paths "/home/suren/NetBeansProjects/Mygit/Linkedin-twit-facebook-connect/app/views", "/home/suren/.rvm/gems/ruby-1.8.7-p334/gems/devise-1.3.4/app/views"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=UWVEybt8oIp73jXWhrc36uZlx9QXhZhEk4GffKnB8GU&oauth_verifier=fuQIg6uM0ZQz1mNB2owkqVNFqVCgdwPtzDLTYlm0" for 127.0.0.1 at Sat Jun 25 17:01:10 +0530 2011
+
+
+Started GET "/auth/failure?message=invalid_credentials" for 127.0.0.1 at Sat Jun 25 17:01:11 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 17:01:14 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=MszruHoLEsyLKa5OKWgRpXbVXWH2HU2waFmh42d6I&oauth_verifier=cZ1z3NokJmFgukrVXU1rVfxDXuie0nSWKE10qutxYY" for 127.0.0.1 at Sat Jun 25 17:01:17 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"cZ1z3NokJmFgukrVXU1rVfxDXuie0nSWKE10qutxYY", "oauth_token"=>"MszruHoLEsyLKa5OKWgRpXbVXWH2HU2waFmh42d6I", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at Sat Jun 25 17:02:31 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=rPgJiGOxRZdcLGOioreXTAtXgw9BMEhXsmy4IzZY0w&oauth_verifier=Qf45XmdzEp5bQiMCEIUHBz1y0czQuMECr5VGnRV3Hk" for 127.0.0.1 at Sat Jun 25 17:02:34 +0530 2011
+
+SocketError (getaddrinfo: Name or service not known):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=rPgJiGOxRZdcLGOioreXTAtXgw9BMEhXsmy4IzZY0w&oauth_verifier=Qf45XmdzEp5bQiMCEIUHBz1y0czQuMECr5VGnRV3Hk" for 127.0.0.1 at Sat Jun 25 17:07:37 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"Qf45XmdzEp5bQiMCEIUHBz1y0czQuMECr5VGnRV3Hk", "oauth_token"=>"rPgJiGOxRZdcLGOioreXTAtXgw9BMEhXsmy4IzZY0w", "provider"=>"twitter"}
+Completed   in 10ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 17:07:45 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 17:07:57 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=PB25Jmz5f6hneEYA1jQhUQBpcldFAr3Kd1BacPSM490&oauth_verifier=PMSpRFHfbOqvwaRpxi6lHYgo50ALLwNLxGh74TdHNQ" for 127.0.0.1 at Sat Jun 25 17:08:00 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"PMSpRFHfbOqvwaRpxi6lHYgo50ALLwNLxGh74TdHNQ", "oauth_token"=>"PB25Jmz5f6hneEYA1jQhUQBpcldFAr3Kd1BacPSM490", "provider"=>"twitter"}
+Completed   in 9ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 17:08:02 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 17:08:11 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=m6dlzT0pLgnTLc6yrkoy4YM9c4K9yi8OgoWnF6iOlI&oauth_verifier=J1GlHw4XdwWZ1Njt4IABypk2omMDYnCPWQAmfSwIIE" for 127.0.0.1 at Sat Jun 25 17:08:13 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"J1GlHw4XdwWZ1Njt4IABypk2omMDYnCPWQAmfSwIIE", "oauth_token"=>"m6dlzT0pLgnTLc6yrkoy4YM9c4K9yi8OgoWnF6iOlI", "provider"=>"twitter"}
+Completed   in 9ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 17:08:15 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 17:08:27 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 17:08:31 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=VAzjBqqjvHHHjOtr6WjYcVwMvIBVvQn5kMQtLqbvenU&oauth_verifier=j9RSjtGR8nfCaw75bynaEn9mf3cvvbt7JCcaOPz0o" for 127.0.0.1 at Sat Jun 25 17:08:39 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"j9RSjtGR8nfCaw75bynaEn9mf3cvvbt7JCcaOPz0o", "oauth_token"=>"VAzjBqqjvHHHjOtr6WjYcVwMvIBVvQn5kMQtLqbvenU", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 24ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 17:08:42 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 17:08:56 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=CdnvrFbCWFISldreLonI1Bxjajz0qFoZ1AkTAvWTZc&oauth_verifier=5FJEawvK3fzjNIaV2j68BZi1bD4YEajkEP8FDv4RYw" for 127.0.0.1 at Sat Jun 25 17:08:59 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"5FJEawvK3fzjNIaV2j68BZi1bD4YEajkEP8FDv4RYw", "oauth_token"=>"CdnvrFbCWFISldreLonI1Bxjajz0qFoZ1AkTAvWTZc", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 97ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 17:09:02 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 17:09:14 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=yaosQNEZfROtcSWouCTAtxuE2yllBuVVoVfpXB3St0&oauth_verifier=WOA3SrwB3JMPUVkJOz0gOwckT8U9T34S0iKB3Judg" for 127.0.0.1 at Sat Jun 25 17:09:22 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"WOA3SrwB3JMPUVkJOz0gOwckT8U9T34S0iKB3Judg", "oauth_token"=>"yaosQNEZfROtcSWouCTAtxuE2yllBuVVoVfpXB3St0", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 24ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 17:09:25 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 17:10:09 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:10:37 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=Sv3e46QTV2cYxuiCzQlULfjalEKOhCohAnjFDFdcU&oauth_verifier=AbDV4yUTAV1mqPnPjOxj7WEKPzU96ehKXaZN2HiE" for 192.168.1.6 at Sat Jun 25 17:10:40 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"AbDV4yUTAV1mqPnPjOxj7WEKPzU96ehKXaZN2HiE", "oauth_token"=>"Sv3e46QTV2cYxuiCzQlULfjalEKOhCohAnjFDFdcU", "provider"=>"twitter"}
+Rendered text template (0.0ms)
+Completed   in 31ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 17:10:48 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 17:10:57 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 9ms
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 17:10:57 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 96ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:11:07 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=wJbibOdLEl7ufiFczvo5YtYwfvunITUbZ5IY4odpQc&oauth_verifier=PaB5NlALlcCyMQQeHXbDwFV95019qpwocv3USIO7Cc" for 192.168.1.6 at Sat Jun 25 17:11:09 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"PaB5NlALlcCyMQQeHXbDwFV95019qpwocv3USIO7Cc", "oauth_token"=>"wJbibOdLEl7ufiFczvo5YtYwfvunITUbZ5IY4odpQc", "provider"=>"twitter"}
+Completed   in 9ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 17:11:17 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:12:35 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=UDmmsIbos5vsHJ6G7rxRpi8RbfqocTofIV1r2wV29M4&oauth_verifier=FuuTR08WIRkYQDSdcggo7aw1558V1zSQK8XCIkXtVM" for 192.168.1.6 at Sat Jun 25 17:12:38 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"FuuTR08WIRkYQDSdcggo7aw1558V1zSQK8XCIkXtVM", "oauth_token"=>"UDmmsIbos5vsHJ6G7rxRpi8RbfqocTofIV1r2wV29M4", "provider"=>"twitter"}
+Redirected to http://192.168.1.6:3000/authentications
+Completed 302 Found in 1ms
+
+
+Started GET "/authentications" for 192.168.1.6 at Sat Jun 25 17:12:46 +0530 2011
+  Processing by AuthenticationsController#index as HTML
+Rendered authentications/index.html.erb within layouts/application (78.8ms)
+Completed   in 118ms
+
+ActionView::Template::Error (undefined method `title' for #<#<Class:0xb6c77df4>:0xb6c76f58>):
+    1: <% title "Authentications" %>
+    2: 
+    3: <table>
+    4:   <tr>
+  app/views/authentications/index.html.erb:1:in `_app_views_authentications_index_html_erb__575143383__614223638_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.4ms)
+
+
+Started GET "/authentications" for 192.168.1.6 at Sat Jun 25 17:13:13 +0530 2011
+  Processing by AuthenticationsController#index as HTML
+Rendered authentications/index.html.erb within layouts/application (0.7ms)
+Completed   in 15ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    5:     <th>Provider</th>
+    6:     <th>Uid</th>
+    7:   </tr>
+    8:   <% for authentication in @authentications %>
+    9:     <tr>
+    10:       <td><%= authentication.user_id %></td>
+    11:       <td><%= authentication.provider %></td>
+  app/views/authentications/index.html.erb:8:in `_app_views_authentications_index_html_erb__575143383__613538058_0'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (54.7ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (59.9ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:13:38 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=YNLpskC6TDKRTuGketDchYQcUsLH9Or2KNxiUnrTMk&oauth_verifier=pN4Vg7IIgjfQaFD2ZzJpZw9QDC3hwJTDetWBXvm9WA" for 192.168.1.6 at Sat Jun 25 17:13:40 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"pN4Vg7IIgjfQaFD2ZzJpZw9QDC3hwJTDetWBXvm9WA", "oauth_token"=>"YNLpskC6TDKRTuGketDchYQcUsLH9Or2KNxiUnrTMk", "provider"=>"twitter"}
+Completed   in 9ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 17:13:43 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:14:11 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=qShImw1Byt6koFyhEP5TJRLuRjy4HG8iYtHsxQnBn4&oauth_verifier=G19SOdeo7wot3RXTtgHT79RPwX98MRITeyylczE" for 192.168.1.6 at Sat Jun 25 17:14:14 +0530 2011
+
+SyntaxError (/home/suren/NetBeansProjects/Mygit/Linkedin-twit-facebook-connect/app/controllers/authentications_controller.rb:12: syntax error, unexpected '\n', expecting tASSOC):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/auth/twitter/" for 192.168.1.6 at Sat Jun 25 17:14:37 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=0dbJxGW0v4NNmNg9E1J4xpzHSpNzeLBSHEZ7tRj88CQ&oauth_verifier=Yl3RIPrQ7ZTnd3yIvftCnNgBiDOSqFJTUWYvnCrGJA" for 192.168.1.6 at Sat Jun 25 17:14:40 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"Yl3RIPrQ7ZTnd3yIvftCnNgBiDOSqFJTUWYvnCrGJA", "oauth_token"=>"0dbJxGW0v4NNmNg9E1J4xpzHSpNzeLBSHEZ7tRj88CQ", "provider"=>"twitter"}
+Completed   in 9ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 17:14:43 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:17:44 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=nUDrdYbz45KIsCzJqAJu6OlVEVNCNtX0ep0wpQp3VUQ&oauth_verifier=DNjzyXJIoImsrS5FE6cXV27gHqwj9DZE7QMl2WMRNoY" for 192.168.1.6 at Sat Jun 25 17:17:47 +0530 2011
+
+SyntaxError (/home/suren/NetBeansProjects/Mygit/Linkedin-twit-facebook-connect/app/controllers/authentications_controller.rb:12: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+...r'], auth['uid'],current_user"--------------------"
+                              ^):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/auth/twitter/" for 192.168.1.6 at Sat Jun 25 17:18:15 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=AZ2kqgEr7NmRYQKPvYoVMq7Mprhi7aFS4OkjMXEEK8&oauth_verifier=wUN5yT6pRSqlRPUGvjOYCNsgfDKvj6LbWLxfCsaPscI" for 192.168.1.6 at Sat Jun 25 17:18:19 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"wUN5yT6pRSqlRPUGvjOYCNsgfDKvj6LbWLxfCsaPscI", "oauth_token"=>"AZ2kqgEr7NmRYQKPvYoVMq7Mprhi7aFS4OkjMXEEK8", "provider"=>"twitter"}
+Completed   in 11ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 17:18:32 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 17:22:31 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 9ms
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 17:22:31 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.0ms)
+Rendered devise/sessions/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 93ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 192.168.1.6 at Sat Jun 25 17:22:41 +0530 2011
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"commit"=>"Sign in", "authenticity_token"=>"c6LWt+Q2KB7t49UyTovEP5BgAr/BjDEye9ox6DN7KY8=", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"surendrans1@spritle.com"}}
+  [1m[36mSQL (87.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mUser Load (15.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'surendrans1@spritle.com' LIMIT 1
+Redirected to http://192.168.1.6:3000/
+Completed 302 Found in 394ms
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 17:22:41 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 126ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:22:48 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=AqduPMahUDyFHNDRfykehMDfSFTWcVhTdccvK7Pw7I&oauth_verifier=XfekYRB9sGMQ4ATw3rCtSwceSTt7RzRTKyNKSFwyyEo" for 192.168.1.6 at Sat Jun 25 17:22:50 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"XfekYRB9sGMQ4ATw3rCtSwceSTt7RzRTKyNKSFwyyEo", "oauth_token"=>"AqduPMahUDyFHNDRfykehMDfSFTWcVhTdccvK7Pw7I", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mdescribe `authentications`[0m
+  [1m[35mAREL (40.1ms)[0m  INSERT INTO `authentications` (`created_at`, `updated_at`, `uid`, `user_id`, `provider`) VALUES ('2011-06-25 11:53:03', '2011-06-25 11:53:03', '96084671', 1, 'twitter')
+  [1m[36mSQL (88.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.1.6:3000/authentications
+Completed 302 Found in 296ms
+
+
+Started GET "/authentications" for 192.168.1.6 at Sat Jun 25 17:23:04 +0530 2011
+  Processing by AuthenticationsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mAuthentication Load (82.9ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE (`authentications`.user_id = 1)[0m
+Rendered authentications/index.html.erb within layouts/application (102.3ms)
+Completed 200 OK in 198ms (Views: 24.5ms | ActiveRecord: 213.3ms)
+
+
+Started GET "/authentications" for 192.168.1.6 at Sat Jun 25 17:24:43 +0530 2011
+  Processing by AuthenticationsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mAuthentication Load (0.1ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE (`authentications`.user_id = 1)[0m
+Rendered authentications/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 94ms (Views: 67.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:24:47 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=JGII2oH7WE46cqL2hG8D4DFTkUdcsAOuK8JjBZOYdo&oauth_verifier=FcdFYyWbdxlC02ErEvSkbRfVdzuhsftocQMKb4XGF8" for 192.168.1.6 at Sat Jun 25 17:24:50 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"FcdFYyWbdxlC02ErEvSkbRfVdzuhsftocQMKb4XGF8", "oauth_token"=>"JGII2oH7WE46cqL2hG8D4DFTkUdcsAOuK8JjBZOYdo", "provider"=>"twitter"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Completed   in 31ms
+
+ArgumentError (Unknown key(s): uid, provider):
+  app/controllers/authentications_controller.rb:13:in `create'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.6ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=JGII2oH7WE46cqL2hG8D4DFTkUdcsAOuK8JjBZOYdo&oauth_verifier=FcdFYyWbdxlC02ErEvSkbRfVdzuhsftocQMKb4XGF8" for 192.168.1.6 at Sat Jun 25 17:26:09 +0530 2011
+
+
+Started GET "/auth/failure?message=invalid_credentials" for 192.168.1.6 at Sat Jun 25 17:26:10 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateProducts (20110625055014)
+Migrating to DeviseCreateUsers (20110625061503)
+Migrating to CreateAuthentications (20110625064146)
+  [1m[35mSQL (9.9ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `authentications`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `authentications`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `products`[0m
+  [1m[35mSQL (7.7ms)[0m  SHOW KEYS FROM `products`
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (24.6ms)[0m  SHOW KEYS FROM `users`
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:27:16 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=bJSisG1m6lUoHjFGvtbEIFoG4D68W2vIsDy3dbD3w&oauth_verifier=rhr0WXsTNTLNdR4yqgj59923XiGWscvFaXDzWJ0xag" for 192.168.1.6 at Sat Jun 25 17:27:19 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"rhr0WXsTNTLNdR4yqgj59923XiGWscvFaXDzWJ0xag", "oauth_token"=>"bJSisG1m6lUoHjFGvtbEIFoG4D68W2vIsDy3dbD3w", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE (`authentications`.user_id = 1)
+Completed   in 88ms
+
+ArgumentError (Unknown key(s): uid, provider):
+  app/controllers/authentications_controller.rb:14:in `create'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.1ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.7ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:29:05 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=xxDHmAHhkQqgqr7BvIHYwNZuTa6uP8EqghExP8gW1I&oauth_verifier=0ZvOxskmZ1VxEtqbxemhEYVVXHIyTUp449mCMwHH7bg" for 192.168.1.6 at Sat Jun 25 17:29:18 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"0ZvOxskmZ1VxEtqbxemhEYVVXHIyTUp449mCMwHH7bg", "oauth_token"=>"xxDHmAHhkQqgqr7BvIHYwNZuTa6uP8EqghExP8gW1I", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthentication Load (0.7ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE (`authentications`.user_id = 1)
+Completed   in 100ms
+
+ArgumentError (Unknown key(s): uid, provider):
+  app/controllers/authentications_controller.rb:14:in `create'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.8ms)
+
+
+Started GET "/auth/twitter/" for 192.168.1.6 at Sat Jun 25 17:30:44 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=YWgtUS6UGuf1lcAai3Y5uUODcPxJO1f6paTP7GhiI&oauth_verifier=epHlaDmpveXblvR0Aw4Xz3xt0bGLyOYVaVePGwLhpOI" for 192.168.1.6 at Sat Jun 25 17:30:51 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"epHlaDmpveXblvR0Aw4Xz3xt0bGLyOYVaVePGwLhpOI", "oauth_token"=>"YWgtUS6UGuf1lcAai3Y5uUODcPxJO1f6paTP7GhiI", "provider"=>"twitter"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE (`authentications`.user_id = 1)
+Completed   in 94ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 17:31:00 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 17:31:30 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=O1UNrtX4ztRXvCgvDdyaoLBTkFN5DVa1VBFQv6ao&oauth_verifier=JQXR2bBkYJGAkxFhK9FRzXxzWeFRSMmn8Uh6oAz7DY" for 192.168.1.6 at Sat Jun 25 17:31:37 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"JQXR2bBkYJGAkxFhK9FRzXxzWeFRSMmn8Uh6oAz7DY", "oauth_token"=>"O1UNrtX4ztRXvCgvDdyaoLBTkFN5DVa1VBFQv6ao", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthentication Load (12.9ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' AND (`authentications`.user_id = 1) LIMIT 1
+Redirected to http://192.168.1.6:3000/authentications
+Completed 302 Found in 43ms
+
+
+Started GET "/authentications" for 192.168.1.6 at Sat Jun 25 17:31:40 +0530 2011
+  Processing by AuthenticationsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE (`authentications`.user_id = 1)
+Rendered authentications/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 108ms (Views: 17.6ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/users/sign_out" for 192.168.1.6 at Sat Jun 25 18:02:29 +0530 2011
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.1.6:3000/
+Completed 302 Found in 43ms
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:02:29 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 10ms
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:02:29 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 37ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:03:33 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 9ms
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:03:33 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.1ms)
+Rendered devise/sessions/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 96ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:03:35 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=IHvo4xnP7gBSpbKt3FSmbMvrRRmGrs27B1bh6Uq94jM&oauth_verifier=EC5l93y3jJY2JAzk2P9nqlDh5NNn2VPtzB7QDnGV4" for 192.168.1.6 at Sat Jun 25 18:03:47 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"EC5l93y3jJY2JAzk2P9nqlDh5NNn2VPtzB7QDnGV4", "oauth_token"=>"IHvo4xnP7gBSpbKt3FSmbMvrRRmGrs27B1bh6Uq94jM", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.3ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Redirected to http://192.168.1.6:3000/
+Completed 302 Found in 34ms
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:03:50 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 105ms (Views: 8.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:08:57 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 34ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:09:10 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 96ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:09:20 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 33ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:09:30 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 100ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:09:36 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:09:40 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+Rendered products/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 39ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_out" for 192.168.1.6 at Sat Jun 25 18:10:20 +0530 2011
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Redirected to http://192.168.1.6:3000/
+Completed 302 Found in 15ms
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:10:20 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 9ms
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:10:20 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 36ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:10:23 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 34ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:10:26 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=4XAeKCJ4F6GjEaqUMHBXosVS8M9VWAZH30NufEjLU&oauth_verifier=DZODSCkORtq4NxDPb7Spbc3wPLviqPddF4FmNsmxe0" for 192.168.1.6 at Sat Jun 25 18:10:29 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"DZODSCkORtq4NxDPb7Spbc3wPLviqPddF4FmNsmxe0", "oauth_token"=>"4XAeKCJ4F6GjEaqUMHBXosVS8M9VWAZH30NufEjLU", "provider"=>"twitter"}
+  [1m[36mAuthentication Load (0.2ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1[0m
+Completed   in 30ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:10:37 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:11:31 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=z4zoSiB3kbMYkmyPALW7QIMJru43IXcnRugyaAEKoA&oauth_verifier=YKtZCzvIwFAXv7xpnuZpJxWjrJUVVdZqwDO6zoRmwlw" for 192.168.1.6 at Sat Jun 25 18:11:33 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"YKtZCzvIwFAXv7xpnuZpJxWjrJUVVdZqwDO6zoRmwlw", "oauth_token"=>"z4zoSiB3kbMYkmyPALW7QIMJru43IXcnRugyaAEKoA", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+Completed   in 27ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:11:41 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:12:48 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:12:49 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 34ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:12:51 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=Upstf6pe97h2GMkeVtBqVff29psXnA3T6lKVhHUkg&oauth_verifier=daO64qdLanAjEfyFZhlUYPce2LbMvlYN0es1jZ1yYQ" for 192.168.1.6 at Sat Jun 25 18:12:53 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"daO64qdLanAjEfyFZhlUYPce2LbMvlYN0es1jZ1yYQ", "oauth_token"=>"Upstf6pe97h2GMkeVtBqVff29psXnA3T6lKVhHUkg", "provider"=>"twitter"}
+  [1m[36mAuthentication Load (0.1ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1[0m
+Completed   in 91ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:13:06 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:13:45 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=rquClBrnl2C0voJgSHWRRHStbvj0MObfFOeD6Dh6bcA&oauth_verifier=YU1A6xgbBushkMEy15fZDWTyjnQNYqhTAs7uaEakB70" for 192.168.1.6 at Sat Jun 25 18:13:47 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"YU1A6xgbBushkMEy15fZDWTyjnQNYqhTAs7uaEakB70", "oauth_token"=>"rquClBrnl2C0voJgSHWRRHStbvj0MObfFOeD6Dh6bcA", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+Completed   in 27ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:13:50 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:17:29 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=JYmSyfd0j8MIel63Q911zF9DbzJp9xiDQe1RyuVeic&oauth_verifier=rIRQ1X4puW2SUnG8bTbmUT2NABKKx2knGlFgZeRkug" for 192.168.1.6 at Sat Jun 25 18:17:31 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"rIRQ1X4puW2SUnG8bTbmUT2NABKKx2knGlFgZeRkug", "oauth_token"=>"JYmSyfd0j8MIel63Q911zF9DbzJp9xiDQe1RyuVeic", "provider"=>"twitter"}
+  [1m[36mAuthentication Load (0.1ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1[0m
+Completed   in 102ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:17:34 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:18:41 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=TjNP8tihGYbuUgfcub51mxLAfzVhw3Ix1JL2xUtj8&oauth_verifier=rzl1ptz1OiqvEjWrYUfk3raeEcGltbJMbhjbA2CEIoE" for 192.168.1.6 at Sat Jun 25 18:18:43 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"rzl1ptz1OiqvEjWrYUfk3raeEcGltbJMbhjbA2CEIoE", "oauth_token"=>"TjNP8tihGYbuUgfcub51mxLAfzVhw3Ix1JL2xUtj8", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+Completed   in 39ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:18:46 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:19:38 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=YmYOX1gRsnko8mRKMVGYjUwG1JwHJ3xgn4iQlfI1Y&oauth_verifier=BcTf3kWca92IaXFjqYW6GKV17J4MNiHx7WE9nphVWY" for 192.168.1.6 at Sat Jun 25 18:19:40 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"BcTf3kWca92IaXFjqYW6GKV17J4MNiHx7WE9nphVWY", "oauth_token"=>"YmYOX1gRsnko8mRKMVGYjUwG1JwHJ3xgn4iQlfI1Y", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+Completed   in 40ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:19:43 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:20:55 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=ttHIpNkxgRIUGRDpYykp6xok4aNBQjaFWXLv0ENb28&oauth_verifier=GLrPfSzdsOcmjufwvpHADFuuA6TptceCqSnPxgLMnvo" for 192.168.1.6 at Sat Jun 25 18:20:58 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"GLrPfSzdsOcmjufwvpHADFuuA6TptceCqSnPxgLMnvo", "oauth_token"=>"ttHIpNkxgRIUGRDpYykp6xok4aNBQjaFWXLv0ENb28", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+Completed   in 111ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:21:01 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:21:21 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=ZHRzmwCvcKmvkB5PVUHpDir3GQNSdAyYStwbae4TcY&oauth_verifier=rSFZWhJ23VmqkA9Vyi4EoZDOhR5Rc6YLx6bIXI2dJM" for 192.168.1.6 at Sat Jun 25 18:21:23 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"rSFZWhJ23VmqkA9Vyi4EoZDOhR5Rc6YLx6bIXI2dJM", "oauth_token"=>"ZHRzmwCvcKmvkB5PVUHpDir3GQNSdAyYStwbae4TcY", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+Completed   in 46ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:21:26 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:23:24 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=crNpmDyTN5ZcroaMpnwH2S79Z8EvTcdWUmcU3gyI72g&oauth_verifier=NfhskBGaVSSZ3a84jC6T5c1TI6ZLuZri0r2k62nIPU" for 192.168.1.6 at Sat Jun 25 18:23:27 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"NfhskBGaVSSZ3a84jC6T5c1TI6ZLuZri0r2k62nIPU", "oauth_token"=>"crNpmDyTN5ZcroaMpnwH2S79Z8EvTcdWUmcU3gyI72g", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+Completed   in 40ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:23:34 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:24:21 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=FHfHP5Js65afYkvTHWifhpec2i6gebFYNv1CpwFQ&oauth_verifier=vI8DOWtgEbr34qxBy3qfzY98o3k8t2g1DTuzbsIeY" for 192.168.1.6 at Sat Jun 25 18:24:33 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"vI8DOWtgEbr34qxBy3qfzY98o3k8t2g1DTuzbsIeY", "oauth_token"=>"FHfHP5Js65afYkvTHWifhpec2i6gebFYNv1CpwFQ", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+Completed   in 179ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 192.168.1.6 at Sat Jun 25 18:24:36 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 18:26:31 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=nXsGbj0kj0HPWhbUcMzEkBpT3IuGR9KWtr8aI6RGNKo&oauth_verifier=OhhoLAsF0yjpPz46wvka1MDo9hxoLEdpx27W4WKMc" for 127.0.0.1 at Sat Jun 25 18:26:34 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"OhhoLAsF0yjpPz46wvka1MDo9hxoLEdpx27W4WKMc", "oauth_token"=>"nXsGbj0kj0HPWhbUcMzEkBpT3IuGR9KWtr8aI6RGNKo", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+Completed   in 38ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 18:26:42 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 18:30:26 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=5DiMEFt3RBm2PZLFoTbfTylQ095DfQdoJOA357pEg&oauth_verifier=SIJO7q0Mw8CuWb4qwQfORuKrjtonFvxRd0D0CgJ8RE" for 127.0.0.1 at Sat Jun 25 18:30:34 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"SIJO7q0Mw8CuWb4qwQfORuKrjtonFvxRd0D0CgJ8RE", "oauth_token"=>"5DiMEFt3RBm2PZLFoTbfTylQ095DfQdoJOA357pEg", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+Completed   in 40ms
+
+
+Started GET "/auth/failure?message=invalid_response" for 127.0.0.1 at Sat Jun 25 18:30:37 +0530 2011
+
+ActionController::RoutingError (No route matches "/auth/failure"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Sat Jun 25 18:31:05 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=GSEJvaFv3aQPmLlSEdp7pitZ3weNXW5ELYfNBDVsY&oauth_verifier=AW5kQZ2fzeYYiVyxAAslFGbmSfx3WeWARw7fG4EUWc" for 127.0.0.1 at Sat Jun 25 18:31:07 +0530 2011
+
+SocketError (getaddrinfo: Name or service not known):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:31:58 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=6iQNCgl3SYIoJ5bbyNIDJ59mVnqS5JIfaNBon7pQ&oauth_verifier=jf2sEwRADIoPeHveDVfzlQaxw5QGsZHhepJqmyT9k8" for 192.168.1.6 at Sat Jun 25 18:32:00 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"jf2sEwRADIoPeHveDVfzlQaxw5QGsZHhepJqmyT9k8", "oauth_token"=>"6iQNCgl3SYIoJ5bbyNIDJ59mVnqS5JIfaNBon7pQ", "provider"=>"twitter"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://192.168.1.6:3000/users/sign_up
+Completed 302 Found in 110ms
+
+
+Started GET "/users/sign_up" for 192.168.1.6 at Sat Jun 25 18:32:13 +0530 2011
+  Processing by RegistrationsController#new as HTML
+Rendered devise/shared/_links.erb (2.0ms)
+Rendered registrations/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 106ms (Views: 15.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 192.168.1.6 at Sat Jun 25 18:32:23 +0530 2011
+  Processing by RegistrationsController#create as HTML
+  Parameters: {"commit"=>"Sign up", "authenticity_token"=>"jYeH4YDxvPOxHT6/2a1eUn3tn/jiv5jF5fI4fINtQkU=", "utf8"=>"✓", "user"=>{"email"=>"surendrans86@gmail.com"}}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (22.9ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'surendrans86@gmail.com') LIMIT 1
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `users`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `users` (`remember_created_at`, `reset_password_token`, `last_sign_in_ip`, `current_sign_in_at`, `last_sign_in_at`, `encrypted_password`, `reset_password_sent_at`, `email`, `updated_at`, `current_sign_in_ip`, `sign_in_count`, `created_at`) VALUES (NULL, NULL, NULL, NULL, NULL, '', NULL, 'surendrans86@gmail.com', '2011-06-25 13:02:23', NULL, 0, '2011-06-25 13:02:23')
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `authentications`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `authentications` (`provider`, `updated_at`, `user_id`, `uid`, `created_at`) VALUES ('twitter', '2011-06-25 13:02:23', 2, '96084671', '2011-06-25 13:02:23')
+  [1m[36mSQL (90.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.1.6:3000/
+Completed   in 200ms
+
+NameError (undefined local variable or method `sessions' for #<RegistrationsController:0xb6e92d3c>):
+  app/controllers/registrations_controller.rb:7:in `create'
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (62.0ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.3ms)
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (83.3ms)
+
+
+Started POST "/users" for 192.168.1.6 at Sat Jun 25 18:32:39 +0530 2011
+  Processing by RegistrationsController#create as HTML
+  Parameters: {"commit"=>"Sign up", "authenticity_token"=>"jYeH4YDxvPOxHT6/2a1eUn3tn/jiv5jF5fI4fINtQkU=", "utf8"=>"✓", "user"=>{"email"=>"surendrans86@gmail.com"}}
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'surendrans86@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered registrations/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 55ms (Views: 16.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:32:46 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 11ms
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:32:46 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 37ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 192.168.1.6 at Sat Jun 25 18:32:52 +0530 2011
+
+
+Started GET "/auth/twitter/callback?oauth_token=MpjDKKf7cTbWodE4ASG4gBOWErSI0uEUt5i0bYV7rXU&oauth_verifier=J9ql5biVYv9rgykBSnF8vsYaS3HuRMZgp44QLw7NTLE" for 192.168.1.6 at Sat Jun 25 18:32:54 +0530 2011
+  Processing by AuthenticationsController#create as HTML
+  Parameters: {"oauth_verifier"=>"J9ql5biVYv9rgykBSnF8vsYaS3HuRMZgp44QLw7NTLE", "oauth_token"=>"MpjDKKf7cTbWodE4ASG4gBOWErSI0uEUt5i0bYV7rXU", "provider"=>"twitter"}
+  [1m[36mAuthentication Load (0.3ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '96084671' AND `authentications`.`provider` = 'twitter' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Redirected to http://192.168.1.6:3000/
+Completed 302 Found in 101ms
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:32:57 +0530 2011
+  Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT `products`.* FROM `products`
+Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 8.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/sign_out" for 192.168.1.6 at Sat Jun 25 18:44:24 +0530 2011
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.1.6:3000/
+Completed 302 Found in 85ms
+
+
+Started GET "/" for 192.168.1.6 at Sat Jun 25 18:44:24 +0530 2011
+  Processing by ProductsController#index as HTML
+Completed   in 10ms
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:44:24 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 34ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/connect/twitter_32.png" for 192.168.1.6 at Sat Jun 25 18:44:24 +0530 2011
+
+ActionController::RoutingError (No route matches "/connect/twitter_32.png"):
+  
+
+Rendered /home/suren/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:45:00 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 36ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:45:07 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 34ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:46:58 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 39ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:47:21 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.4ms)
+Rendered devise/sessions/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 55ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 18:47:21 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.0ms)
+Rendered devise/sessions/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 38ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateProducts (20110625055014)
+Migrating to DeviseCreateUsers (20110625061503)
+Migrating to CreateAuthentications (20110625064146)
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `authentications`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `authentications`
+  [1m[36mSQL (0.4ms)[0m  [1mdescribe `products`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `products`
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `users`
+
+
+Started GET "/users/sign_in" for 192.168.1.6 at Sat Jun 25 19:09:28 +0530 2011
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.8ms)
+Rendered devise/sessions/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 33ms (Views: 14.9ms | ActiveRecord: 0.0ms)

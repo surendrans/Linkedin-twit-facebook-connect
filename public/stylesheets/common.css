@@ -1,0 +1,164 @@
+/*li{
+    list-style: none;
+    margin: 0px;
+}
+
+ul.projects li{
+    padding: 10px;
+    background-color: #E8EDFF;
+    width: 300px;
+}
+
+.warning{
+    background: #FFF380;
+    border: 1px solid #FF7800;
+    text-align: left;
+    margin: 10px auto;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+li.project, #project_show .project_content, #version_show .version_content{
+    background: #FAF8CC;
+    border: 1px solid #FF7800;
+    text-align: left;
+    margin: 10px auto;
+    padding: 5px 20px;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 0px;
+}
+li.project a{
+    text-decoration: none;
+}
+
+#project_show h2, #version_show h2 {
+    font-size: 1.8em;
+    background: url(/images/hr.png) repeat-x scroll left bottom;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    text-indent: 2px;
+}
+
+
+.project_section, .version_section {
+    margin-bottom: 45px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#list_test_plans {
+    font-size: 10px;
+}
+
+
+a.small_button{
+    color:white;
+    padding:2px 5px;
+    text-shadow:1px 1px 0 #145982;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    text-align:center;
+    border: #169DD8 solid 1px;
+    margin:50px auto;
+
+    /*
+        CSS3 gradients for webkit and mozilla browsers fallback color for the rest:
+*/
+/*
+    background-color: #59aada;
+    background-image: -moz-linear-gradient(#05DCF4, #1C7EC2);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#05DCF4), to(#1C7EC2));
+    box-shadow:3px 3px 3px #000000;
+    -moz-box-shadow:3px 3px 3px #000000;
+    -webkit-box-shadow:3px 3px 3px #000000;
+    border: #169DD8 solid 1px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+}
+a.big_button{
+    color:white;
+    padding:5px 20px;
+    text-shadow:1px 1px 0 #145982;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    text-align:center;
+    border: #169DD8 solid 1px;
+    margin:50px auto;
+
+    /*
+        CSS3 gradients for webkit and mozilla browsers fallback color for the rest:
+*/
+/*
+   background-color: #59aada;
+   background-image: -moz-linear-gradient(#05DCF4, #1C7EC2);
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#05DCF4), to(#1C7EC2));
+   box-shadow:3px 3px 3px #000000;
+   -moz-box-shadow:3px 3px 3px #000000;
+   -webkit-box-shadow:3px 3px 3px #000000;
+   border: #169DD8 solid 1px;
+   border-radius:6px;
+   -moz-border-radius:6px;
+   -webkit-border-radius:6px;
+}
+
+a.small_button:hover{
+   /* Lighter gradients for the hover effect */
+/*
+   color:white;
+   text-decoration:none;
+   background-color: #F902B6;
+   background-image: -moz-linear-gradient(#05DCF4, #008BCB);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#05DCF4), to(#008BCB));
+   box-shadow:3px 3px 3px #333;
+   -moz-box-shadow:3px 3px 3px #333;
+   -webkit-box-shadow:3px 3px 3px #333;
+}
+
+*/
+
+.breadcrumb {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color:#2694E8;
+}
+.breadcrumb a {
+    color:#2779AA;
+}
+.radio span.ui-button-text{
+    padding: 0.2em 0.2em;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+.right_align {
+    float:right
+}
+
+
+.ui-widget p {
+    display: block;
+    margin: 1em 0px;
+}
+
+legend{
+    font-size: 15px;
+    background: #BEBEBE;
+    padding: 6px;
+    
+    color: black;
+}
+
+fieldset{
+    border: #169DD8 solid 1px;
+    width: 90%;
+    padding: 10px;
+}
